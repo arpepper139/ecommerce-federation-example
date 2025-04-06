@@ -40,7 +40,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/gateway@npm:^2.10.0":
+"@apollo/gateway@npm:2.10.0":
   version: 2.10.0
   resolution: "@apollo/gateway@npm:2.10.0"
   dependencies:
@@ -135,7 +135,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/server@npm:^4.11.3":
+"@apollo/server@npm:4.11.3":
   version: 4.11.3
   resolution: "@apollo/server@npm:4.11.3"
   dependencies:
@@ -169,7 +169,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/subgraph@npm:^2.10.0":
+"@apollo/subgraph@npm:2.10.0":
   version: 2.10.0
   resolution: "@apollo/subgraph@npm:2.10.0"
   dependencies:
@@ -654,7 +654,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^22.14.0":
+"@types/node@npm:*, @types/node@npm:22.14.0":
   version: 22.14.0
   resolution: "@types/node@npm:22.14.0"
   dependencies:
@@ -1616,11 +1616,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "gateway@workspace:gateway"
   dependencies:
-    "@apollo/gateway": "npm:^2.10.0"
-    "@apollo/server": "npm:^4.11.3"
-    "@types/node": "npm:^22.14.0"
-    ts-node-dev: "npm:^2.0.0"
-    typescript: "npm:^5.8.3"
+    "@apollo/gateway": "npm:2.10.0"
+    "@apollo/server": "npm:4.11.3"
+    "@types/node": "npm:22.14.0"
+    ts-node-dev: "npm:2.0.0"
+    typescript: "npm:5.8.3"
   languageName: unknown
   linkType: soft
 
@@ -1705,7 +1705,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-tag@npm:^2.12.6":
+"graphql-tag@npm:2.12.6":
   version: 2.12.6
   resolution: "graphql-tag@npm:2.12.6"
   dependencies:
@@ -1716,7 +1716,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql@npm:^16.10.0":
+"graphql@npm:16.10.0":
   version: 16.10.0
   resolution: "graphql@npm:16.10.0"
   checksum: 10c0/303730675538c8bd6c76b447dc6f03e61242e2d2596b408c34759666ec4877409e5593a7a0467d590ac5407b8c663b093b599556a77f24f281abea69ddc53de6
@@ -2165,13 +2165,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "listings@workspace:subgraphs/listings"
   dependencies:
-    "@apollo/server": "npm:^4.11.3"
-    "@apollo/subgraph": "npm:^2.10.0"
-    "@types/node": "npm:^22.14.0"
-    graphql: "npm:^16.10.0"
-    graphql-tag: "npm:^2.12.6"
-    ts-node-dev: "npm:^2.0.0"
-    typescript: "npm:^5.8.3"
+    "@apollo/server": "npm:4.11.3"
+    "@apollo/subgraph": "npm:2.10.0"
+    "@types/node": "npm:22.14.0"
+    graphql: "npm:16.10.0"
+    graphql-tag: "npm:2.12.6"
+    ts-node-dev: "npm:2.0.0"
+    typescript: "npm:5.8.3"
   languageName: unknown
   linkType: soft
 
@@ -2858,13 +2858,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "reviews@workspace:subgraphs/reviews"
   dependencies:
-    "@apollo/server": "npm:^4.11.3"
-    "@apollo/subgraph": "npm:^2.10.0"
-    "@types/node": "npm:^22.14.0"
-    graphql: "npm:^16.10.0"
-    graphql-tag: "npm:^2.12.6"
-    ts-node-dev: "npm:^2.0.0"
-    typescript: "npm:^5.8.3"
+    "@apollo/server": "npm:4.11.3"
+    "@apollo/subgraph": "npm:2.10.0"
+    "@types/node": "npm:22.14.0"
+    graphql: "npm:16.10.0"
+    graphql-tag: "npm:2.12.6"
+    ts-node-dev: "npm:2.0.0"
+    typescript: "npm:5.8.3"
   languageName: unknown
   linkType: soft
 
@@ -3307,7 +3307,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node-dev@npm:^2.0.0":
+"ts-node-dev@npm:2.0.0":
   version: 2.0.0
   resolution: "ts-node-dev@npm:2.0.0"
   dependencies:
@@ -3401,7 +3401,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.8.3":
+"typescript@npm:5.8.3":
   version: 5.8.3
   resolution: "typescript@npm:5.8.3"
   bin:
@@ -3411,7 +3411,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.8.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>":
   version: 5.8.3
   resolution: "typescript@patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"
   bin:
