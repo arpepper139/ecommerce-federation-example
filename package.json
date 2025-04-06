@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce-federation-example",
+  "private": true,
+  "engines": {
+    "node": "22"
+  },
+  "packageManager": "yarn@4.7.0",
+  "description": "An example e-commerce Federated Graph",
+  "repository": "git@github.com:arpepper139/ecommerce-federation-example.git",
+  "author": "https://github.com/arpepper139",
+  "license": "MIT",
+  "workspaces": [
+    "gateway",
+    "subgraphs/*"
+  ]
+}
