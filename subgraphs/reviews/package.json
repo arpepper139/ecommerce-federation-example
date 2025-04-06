@@ -1,0 +1,19 @@
+{
+  "name": "reviews",
+  "packageManager": "yarn@4.7.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node-dev --respawn src/index.ts"
+  },
+  "dependencies": {
+    "@apollo/server": "4.11.3",
+    "@apollo/subgraph": "2.10.0",
+    "graphql": "16.10.0",
+    "graphql-tag": "2.12.6"
+  },
+  "devDependencies": {
+    "@types/node": "22.14.0",
+    "ts-node-dev": "2.0.0",
+    "typescript": "5.8.3"
+  }
+}
